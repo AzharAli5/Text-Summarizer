@@ -3,7 +3,7 @@ from pathlib import Path
 import logging
 
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s]: %(message)s:')
-project_name = "text-summerizer"
+project_name = "text-summarizer"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -20,7 +20,7 @@ list_of_files = [
     "config/config.yaml",
     "params.yaml",
     "app.py",
-    "main.py"
+    "main.py",
     "Dockerfile",
     "requirements.txt",
     "setup.py",
